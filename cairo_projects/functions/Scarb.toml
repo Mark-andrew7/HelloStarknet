@@ -1,0 +1,13 @@
+[package]
+name = "functions"
+version = "0.1.0"
+edition = "2024_07"
+
+[[target.executable]]
+name = "functions"
+
+[cairo]
+enable-gas = false  # Ensure this is present
+
+[dependencies]
+cairo_execute = "2.10.0"
