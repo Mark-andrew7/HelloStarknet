@@ -1,0 +1,12 @@
+[package]
+name = "rectangles"
+version = "0.1.0"
+edition = "2024_07"bh
+
+[[target.executable]]
+
+[cairo]
+enable-gas = false
+
+[dependencies]
+cairo_execute = "2.10.0"
